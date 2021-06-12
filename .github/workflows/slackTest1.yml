@@ -24,7 +24,7 @@ jobs:
     steps:
     - name: Notify slack
       env:
-        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN1 }}
       uses: pullreminders/slack-action@master
       with:
         args: '{\"channel\":\"C02506P75TN\",\"text\":\"Hello world! Beautiful Day!\"}'
