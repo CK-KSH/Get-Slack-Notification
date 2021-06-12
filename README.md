@@ -1,4 +1,4 @@
-# GitHub Actions Workflow Demo
+# GitHub Actions Workflow Demo with Slack
 
 For a push or pull request, a Slack notification message ("Hello World! Beautiful Day!") is sent to my selected channel in my Workspace (#get-notification) in Slack account.
 
@@ -41,7 +41,11 @@ Check that under Bot User, the Github Action section is set to link to #github-n
 
 5) Vola! We're done with the setup. Now can test the automated workflow.
 6) Make some changes to any files in this repo such as this README.md file.
-7) Can look at Actions workflow progress and see a slack message show up in #github-notification channel.
+7) Can look at Actions workflow progress and see a slack message show up in #github-notification channel, if the workflows are executed correctly.
+![image](https://user-images.githubusercontent.com/66695423/121762046-2bfc7480-cb66-11eb-8363-743d7baded14.png)
+
+8) Note that the 2 js files are for my own testing of code error in JS under nodejs.
+9) Can see workflow files under .github/workflows folder.
 
 Great thanks to this youtube link where I learn how to automate Github action workflows.
 Learn how to create your own with [How to Use Github Actions to Automate Tests and Slack Notifications](https://www.youtube.com/watch?v=1n-jHHNSoTw)
